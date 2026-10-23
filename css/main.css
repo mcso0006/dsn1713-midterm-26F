@@ -50,14 +50,6 @@ h1, h2, h3 {
   --bs-btn-active-border-color: var(--dd-green);
 }
 
-.btn {
-  align-items: center;
-}
-
-.text-justifed {
-  text-align: justify;
-}
-
 #cta {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/cta-bg.png');
   background-repeat: no-repeat;
