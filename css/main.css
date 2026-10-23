@@ -32,13 +32,30 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
-  text-align: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #hero .d-flex {
   height: 800px;
+}
+
+.btn-primary {
+  --bs-btn-bg: var(--dd-green);
+  --bs-btn-border-color: var(--dd-green);
+  --bs-btn-hover-bg: var(--dd-green);
+  --bs-btn-hover-border-color: var(--dd-green);
+  --bs-btn-active-bg: var(--dd-green);
+  --bs-btn-active-border-color: var(--dd-green);
+}
+
+.btn {
+  align-items: center;
+}
+
+.text-justifed {
+  text-align: justify;
 }
 
 #cta {
@@ -46,6 +63,7 @@ h1, h2, h3 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  color:#F6F3ED;
 }
 
 #cta .d-flex {
